@@ -16,3 +16,5 @@
 - Entre no repositório e coloque no terminal `npm install` para instalar as depedencias
 - Coloque no terminal `npm run dev` para iniciar a aplicação.
 - Ao entrar, crie uma conta pública ou admin para aproveitar a aplicação.
+
+## *Obs*: Necessário está com o BACK END rodando. 
