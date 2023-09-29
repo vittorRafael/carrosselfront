@@ -13,7 +13,7 @@ const ModalComp = ({
 }) => {
   return (
     <>
-      <div className="p-4 justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="p-4 justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-30 outline-none focus:outline-none">
         <div className="relative w-auto my-6 mx-auto max-w-3xl">
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none lg:gap-10">
             <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
@@ -53,7 +53,7 @@ const ModalComp = ({
           </div>
         </div>
       </div>
-      <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+      <div className="opacity-25 fixed inset-0 z-10 bg-black"></div>
     </>
   );
 };
