@@ -1,8 +1,18 @@
-# React + Vite
+# Aplicação FRONT END
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias utilizadas: 
 
-Currently, two official plugins are available:
+- Axios: para fazer as requisições para o backend
+- Framer-motion: para animações CSS
+- React: Framework JS
+- Javascript
+- HTML
+- CSS
+- Tailwind css: Framework CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tutorial para rodar a aplicação na sua máquina
+
+- Clone esse repositório no seu computador.
+- Entre no repositório e coloque no terminal `npm install` para instalar as depedencias
+- Coloque no terminal `npm run dev` para iniciar a aplicação.
+- Ao entrar, crie uma conta pública ou admin para aproveitar a aplicação.
