@@ -2,6 +2,7 @@ import React from 'react';
 import api from '../hooks/useApi';
 import { NavLink, useNavigate } from 'react-router-dom';
 import LoadingComp from '../layout/LoadingComp';
+import bgLogin from '../../assets/images/bglogin.avif';
 
 // eslint-disable-next-line react/prop-types
 const LoginView = ({ createSession }) => {
@@ -41,7 +42,10 @@ const LoginView = ({ createSession }) => {
   }
 
   return (
-    <section className="h-screen font-sans login bg-cover">
+    <section
+      className="h-screen font-sans login bg-cover"
+      style={{ backgroundImage: `url(${bgLogin})` }}
+    >
       <div className="max-w-screen-xl h-full mx-auto flex flex-col gap-5 justify-center items-center">
         {msg && (
           <div

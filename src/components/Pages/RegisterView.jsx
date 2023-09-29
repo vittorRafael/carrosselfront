@@ -1,6 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import api from '../hooks/useApi';
+import bgLogin from '../../assets/images/bglogin.avif';
 
 const RegisterView = () => {
   const [msg, setMsg] = React.useState(null);
@@ -38,7 +39,10 @@ const RegisterView = () => {
   }
 
   return (
-    <section className="h-screen font-sans login bg-cover">
+    <section
+      className="h-screen font-sans login bg-cover"
+      style={{ backgroundImage: `url(${bgLogin})` }}
+    >
       <div className="max-w-screen-xl h-full mx-auto flex flex-col gap-5 justify-center items-center">
         {msg && (
           <div
@@ -129,6 +133,12 @@ const RegisterView = () => {
             </label>
           </div>
           <div className="mt-4 items-center flex justify-between">
+            <NavLink
+              className="font-bold text-slate-300 hover:text-white"
+              to="/login"
+            >
+              Entrar
+            </NavLink>
             <button
               className="px-4 py-1 text-white font-light tracking-wider bg-gray-900 hover:bg-gray-800 rounded"
               type="submit"
