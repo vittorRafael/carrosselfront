@@ -27,6 +27,7 @@ const LoginView = ({ createSession }) => {
       });
       createSession(resp.data.dataUser, resp.data.token);
       navigate('/');
+      navigate(0);
     } catch (err) {
       setMsg({
         text: err.response.data.mensagem,
